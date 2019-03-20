@@ -4,7 +4,7 @@ const request = require("request-promise");
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 const LINE_HEADER = {
   'Content-Type': 'application/json',
-  'Authorization': `Bearer Cd9zDe9LZvQ5UDfVZZElDTY+0lfW26UOZ210/QMozN4o8jXjGt9ckRCCUYFv+/bZO9paIZL7b23WA2lxS+OYknIM26TYrkUxwK2Kp8/1nXPsKwkafkX2jckSggjhC9FLzA1Hio3glJsCwIM5GdeXRQdB04t89/1O/w1cDnyilFU=`
+  'Authorization': `Bearer <LINE_CHANNEL_ACCESS_TOKEN>`
 };
 
 // // Create and Deploy Your First Cloud Functions
